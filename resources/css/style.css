@@ -74,6 +74,12 @@ nav {
   padding: 0.75rem 0;
 }
 
-nav-item {
 
+/*footer*/
+footer {
+  background-color: #000;
+  text-align: left;
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
