@@ -1,6 +1,7 @@
 html, body {
   font-family: Helvetica;
   font-size: 18px;
+  color: #FFF;
 }
 
 .site-container {
@@ -8,10 +9,14 @@ html, body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*header*/
 h1 {
   text-transform: uppercase;
-  color: #FFF;
   font-size: 1rem;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
@@ -53,13 +58,22 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #FFF
 }
 
 h2 {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #FFF;
   margin-top: 0.25rem;
+}
+
+
+/*navigation*/
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+nav-item {
+
 }
