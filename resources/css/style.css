@@ -39,5 +39,27 @@ header img {
   background-position: center;
   background-size: cover;
   height: 25rem;
+  display: flex;
+}
 
+.news {
+  background-color: #000;
+  margin-top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-top: 0.25rem;
 }
