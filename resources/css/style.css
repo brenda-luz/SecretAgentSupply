@@ -49,14 +49,15 @@ header img {
   background-position: center;
   background-size: cover;
   height: 25rem;
-  display: flex;
 }
 
 .news {
   background-color: #000;
-  margin-top: 9rem;
+  position: relative;
+  top: 9rem;
   width: 20rem;
   padding: 2rem 3rem;
+
 }
 
 h3 {
@@ -137,9 +138,7 @@ main img {
 footer {
   background-color: #000;
   text-align: left;
-  height: 5rem;
-  display: flex;
-  align-items: center;
+  padding: 5rem 0;
 }
 
 
