@@ -5,7 +5,7 @@ html, body {
 }
 
 .site-container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -79,6 +79,9 @@ nav {
   padding: 0.75rem 0;
 }
 
+.mobile-nav {
+  display: none;
+}
 
 /*main*/
 .items-container {
@@ -137,4 +140,35 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  #watch {
+    display: none;
+  }
+
+  nav .site-container {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item {
+    width: 47%;
+    margin: 0 auto;
+  }
+
+  .info {
+    width: 35%;
+    margin: 0 auto;
+  }
+
+  footer .site-container {
+    justify-content: flex-start;
+  }
 }
