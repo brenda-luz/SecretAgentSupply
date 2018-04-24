@@ -42,6 +42,18 @@ header img {
   height: 1.5rem;
 }
 
+
+/*navigation*/
+nav {
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+
 /*banner*/
 .banner {
   background-image: url('../img/moto.jpeg');
@@ -64,25 +76,15 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
+  line-height: 2;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-top: 0.25rem;
 }
 
-
-/*navigation*/
-nav {
-  background-color: firebrick;
-  padding: 0.75rem 0;
-}
-
-.mobile-nav {
-  display: none;
-}
 
 /*main*/
 .items-container {
@@ -142,7 +144,7 @@ footer {
 }
 
 
-
+/* tablet */
 @media only screen and (max-width: 1024px) {
   #watch {
     display: none;
@@ -169,5 +171,53 @@ footer {
 
   footer .site-container {
     justify-content: flex-start;
+  }
+}
+
+
+/* smartphone */
+@media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+
+  .news {
+    width: 100%;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #glasses-container {
+    display: none;
+  }
+
+  .item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .info-container {
+    flex-wrap: wrap;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  footer {
+    text-align: center;
   }
 }
